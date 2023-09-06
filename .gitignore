@@ -30,3 +30,75 @@
 *.exe
 *.out
 *.app
+
+# Ignorar arquivos gerados pelo Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos compilados
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.aps
+*.lib
+*.idb
+*.manifest
+*.exp
+
+# Ignorar arquivos de saída de compilação
+out/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Ignorar arquivos de dependências do NuGet
+packages/
+
+# Ignorar arquivos de cache do CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+
+# Ignorar arquivos de registro
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignorar arquivos de configuração de IDE específicos
+*.suo
+*.user
+*.userosscache
+
+# Ignorar arquivos de projeto
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.vspscc
+
+# Ignorar arquivos de saída do compilador
+*.obj
+
+# Ignorar arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Ignorar arquivos de configuração do Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# Ignorar arquivos de rastreamento de código
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
